@@ -1,51 +1,5 @@
-# Git for Web Development Project
-In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
+https://codepen.io/hdell/pen/jOOGbmM?editors=1100
 
-This project consists of two parts:
-
-## Part One:
-You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
-
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your TL as a collaborator
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This file can contain anything.
-  - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your TL as a reviewer on the Pull-Request
-- [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
-
-## Part Two:
-Go back and follow the same steps for your [UI-III-Flexbox project](https://github.com/LambdaSchool/UI-III-Flexbox) and your [User Interface - Great Idea Project](https://github.com/LambdaSchool/User-Interface).
-
-In order to do this, you **do not** need to create new forks of these projects. Follow the steps below for each project:
-
-- [ ] Add your TL as a collaborator to your fork. 
-- [ ] Go into your project folder, make a new branch `firstname-lastname`
-- [ ] Add your first and last name to the `README.md` file in the project and save.
-- [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your TL as a reviewer on the Pull-Request
-- [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
-
-## Stretch
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
-  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
-
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
-
-- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
-
-
-## CodePen URL
-[CSS + HTML Practice](https://codepen.io/hdell/pen/jOOGbmM?editors=1100)
-
-## Questions and Answers
     1. What is Semantic HTML?
 	- Semantic HTML are tags that imply meaning.
     2. What is HTML used for? 
@@ -128,23 +82,12 @@ In order to do this, you **do not** need to create new forks of these projects. 
 		- finally, making a pull request to your own master branch
 		- and adding your TL (now a collaborator) as a reviewer on the request
 
-### Stretch Questions
+Stretch Questions
+
     1. What is the difference between an inline element and a block element?
 	- A block corresponds to the box model and refers to elements such as divs, whereas inline elements work within blocks and refer to elements such as spans
     2. What happens when an element is positioned absolutely? 
 	- The element does not take the window-size or nearby elements into account and is forcefully positioned
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
-    -  Give the selector a "box-sizing: border-box" property.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    - Display Blocks:
-    	- <div>
-    	- <section>
-    	- <h1>
-	- Display Inline:
-		- <span>
-		- <a>
-	- Inline Block:
-		- <img>
     5. In your own words, explain the box model. What is the fix for the box model?
-    - The box model describes how every single element in CSS is a (sqaure-shaped) box. Boxes include content and surrounding space (padding, margins, border, & backgrounds). In order to keep things within a specified height/width, one must use "box-sizing: border-box" property.
-
